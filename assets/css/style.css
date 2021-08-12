@@ -1,0 +1,19 @@
+
+
+header {
+    background: url('../images/cover.jpg');
+    color: black;
+    padding: 3%;
+}
+
+section {
+    background-color: white;
+    padding: 3%;
+}
+
+footer {
+    background-color: black;
+    background-size: cover;
+    color: lightgoldenrodyellow;
+    padding: 3%;
+}
