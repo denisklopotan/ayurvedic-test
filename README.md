@@ -30,6 +30,7 @@ Dosha test in this project is made fairly simple and its main purpose is to intr
 ### Features Left to Implement
 
 - Javascript functions to implement on form, radio button, submit button, styling.
+- Reset button
 
 ## Testing 
 
