@@ -49,7 +49,7 @@ Minor future adjustments needed for mobile devices, relating to result area, kap
   - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdenisklopotan.github.io%2Fayurvedic-test%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
 - JS
-  - No errors were found when passing through the official [JShint](https://jshint.com/), only one undefined variable [i]
+  - No errors were found when passing through the official [JShint](https://jshint.com/)
   - ![JShint](assets/images/jshint.jpg)
 
 - Lightouse
