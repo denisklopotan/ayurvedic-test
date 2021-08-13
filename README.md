@@ -1,104 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ayurvedic 'Dosha test'
 
-Welcome denisklopotan,
+Dosha test in this project is made fairly simple and its main purpose is to introduce ancient ayurvedic system of medicine and wellbeing. Answering to specific questions idividual is getting more insight about his body functioning and trough additional research can find how to improve his/her wellbeing. Which in turn brings longterm value and benefit. Its also fun discovering more about yourself! :D 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+![Responsive Mockup](assets/images/responsive.jpg)
 
-## Gitpod Reminders
+## Features 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Existing Features
 
-`python3 -m http.server`
+- __Header with introduction__
 
-A blue button should appear to click: _Make Public_,
+  - Header and concept of site is made in fairly simple HTML in CSS, putting more focus on form and Javascript.
+  - Link in header is internal, linked within the same web page to form section. 
 
-Another blue button should appear to click: _Open Browser_.
+![Header](assets/images/header.jpg)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- __Section with form__
 
-A blue button should appear to click: _Make Public_,
+  - Form provides 5 questions with topic of Ayurveda. User is able to chose answers that he relates the most and submit answers to get result. 
+  - Result tells the user more about his body costitution and below result link is provided for more information.
 
-Another blue button should appear to click: _Open Browser_.
+![Form & Footer](assets/images/form_footer.jpg)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- __The Footer__ 
 
-To log into the Heroku toolbelt CLI:
+  - The footer section includes copyright and authors name + GitHUb link that opens in new tab.
+  - The footer is valuable to the user as it provides a link to contact developer.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Features Left to Implement
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+- Javascript functions to implement on form, radio button, submit button, styling.
 
-------
+## Testing 
 
-## Release History
+Webpage passed all validator testings with excellent results.
+HTML is simply made and responsive on all devices and screen sizes.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Minor future adjustments needed for mobile devices, relating to result area, kapha result is pushed in a new line while resising to mobile size. Would be more estheticaly pleasing to keep results in one line on all devices.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Validator Testing 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- HTML
+  - No errors were returned when passing through the official [NU HTML checker](https://validator.w3.org/nu/)
+  - ![HTML](assets/images/html-validator.jpg)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fdenisklopotan.github.io%2Fayurvedic-test%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- JS
+  - No errors were found when passing through the official [JShint](https://jshint.com/), only one undefined variable [i]
+  - ![JShint](assets/images/jshint.jpg)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+- Lightouse
+  - Lighthouse validation returned maximum score in 3/4 categories and 95% in 4th. Very good.
+  - ![Lighthouse](assets/images/lighthouse.jpg)
+  
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Unfixed Bugs
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- Mobile responsivness buttons in one line
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+## Deployment
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The live link can be found here - https://denisklopotan.github.io/ayurvedic-test/
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Credits 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Content 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Introduction text was taken from [kripalu.org](https://kripalu.org/content/whats-your-dosha)
+- Form material, questions and answers where taken from [pukkaherbs.com](https://www.pukkaherbs.com/uk/en/dosha-quiz)
+- GitHub icon in the footer was taken from [Font Awesome](https://fontawesome.com/)
+- Javascript template was taken and modified from [codepen](https://codepen.io/amyfu/pen/oLChg)
 
-------
+### Media
 
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+- Header background image is taken from: [Pixabay](https://pixabay.com/photos/balance-stones-stack-110850/)
