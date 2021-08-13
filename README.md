@@ -75,6 +75,7 @@ The live link can be found here - https://denisklopotan.github.io/ayurvedic-test
 
 - Introduction text was taken from [kripalu.org](https://kripalu.org/content/whats-your-dosha)
 - Form material, questions and answers where taken from [pukkaherbs.com](https://www.pukkaherbs.com/uk/en/dosha-quiz)
+- Read more material with external link comes from [Healthline](https://www.healthline.com/nutrition/vata-dosha-pitta-dosha-kapha-dosha)
 - GitHub icon in the footer was taken from [Font Awesome](https://fontawesome.com/)
 - Javascript template was taken and modified from [codepen](https://codepen.io/amyfu/pen/oLChg)
 
