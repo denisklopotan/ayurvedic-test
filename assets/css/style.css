@@ -1,5 +1,3 @@
-
-
 header {
     background: url('../images/cover.jpg');
     color: black;
@@ -17,3 +15,8 @@ footer {
     color: lightgoldenrodyellow;
     padding: 3%;
 }
+
+button {
+    margin-top: 3%;
+    background-color:darkorange;
+    text-transform: uppercase;

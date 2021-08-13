@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    
     <title>Document</title>
 </head>
 <body>
@@ -23,7 +24,7 @@
     <section>
         <div>
             <h2>Dosha Test</h2>
-            <form>
+            <form id="testid">
                 <!-- Question 1 -->
                 <h3>How would you describe your body type and how you look?</h3>
 
@@ -88,11 +89,15 @@
                 <label><input type="radio" name="question5" value="kapha">
                 You can be slow to remember and process information, but once you’ve got it, you hold on to it for life. You plan the project in a methodical way and deliver on time
                 </label><br/>
+
+                <button type="submit" id="submit">Show results</button>
+                <span id="results">Results here!</span>
             </form>
         </div>
     </section>
     <footer>
         Copyright © 2021, Denis Klopotan
     </footer>
+    <script type="text/javascript" src="assets/js/script.js"></script>
 </body>
 </html>
