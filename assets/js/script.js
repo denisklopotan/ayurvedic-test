@@ -1,4 +1,4 @@
-      document.getElementById('testid').addEventListener('submit', function(event){
+      document.getElementById('test-id').addEventListener('submit', function(event){
       event.preventDefault();
       
       var vatascore = 0;
@@ -22,5 +22,3 @@
     let result = document.getElementById('results');
     result.innerHTML = "VATA: " + vatascore + ", PITTA: " + pittascore + ", KAPHA: " + kaphascore;
     })
-
-
